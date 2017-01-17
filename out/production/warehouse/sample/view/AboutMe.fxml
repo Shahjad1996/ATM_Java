@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="551.0" prefWidth="639.0" stylesheets="/sample/style/Home.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.Home">
+   <children>
+      <BorderPane maxHeight="551.0" maxWidth="639.0" minHeight="551.0" minWidth="639.0" prefHeight="551.0" prefWidth="639.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="111.0" prefWidth="683.0" style="-fx-border-color: #ff4e3c; -fx-border-sample.style: solid; -fx-border-width: 0px 0px 5px;" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER" layoutX="194.0" layoutY="28.0" prefHeight="133.0" prefWidth="831.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <AnchorPane prefHeight="106.0" prefWidth="469.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="357.0" prefWidth="683.0" BorderPane.alignment="CENTER">
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <HBox alignment="CENTER" layoutX="177.0" layoutY="165.0" prefHeight="344.0" prefWidth="683.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <AnchorPane prefHeight="392.0" prefWidth="648.0">
+                           <children>
+                              <VBox layoutX="215.0" layoutY="73.0" prefHeight="392.0" prefWidth="648.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="55.0" prefWidth="641.0" text="About " textFill="#ffc16a">
+                                       <font>
+                                          <Font name="System Bold" size="27.0" />
+                                       </font>
+                                    </Label>
+                                    <AnchorPane prefHeight="276.0" prefWidth="599.0">
+                                       <children>
+                                          <ImageView fitHeight="204.0" fitWidth="200.0" layoutX="41.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="/sample/img/shahjad.jpg">
+
+                                                </Image>
+                                             </image>
+                                                  </ImageView>
+                                          <Label layoutX="246.0" layoutY="48.0" prefHeight="50.0" prefWidth="164.0" text="Shahjad" textFill="#360aff">
+                                             <font>
+                                                <Font name="System Bold" size="36.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="246.0" layoutY="138.0" prefHeight="25.0" prefWidth="221.0" text="G.B. Pant Engineering College">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="246.0" layoutY="111.0" prefHeight="27.0" prefWidth="249.0" text="Department: CSE, Student ID: 01820902714">
+                                             <font>
+                                                <Font size="13.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="246.0" layoutY="166.0" prefHeight="25.0" prefWidth="45.0" text="Email :">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="246.0" layoutY="188.0" prefHeight="25.0" prefWidth="142.0" text="Find me on facebook :">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Hyperlink layoutX="294.0" layoutY="165.0" prefHeight="28.0" prefWidth="203.0" text="shahjad.ahmed16@gmail.com">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Hyperlink>
+                                          <Hyperlink layoutX="381.0" layoutY="187.0" prefHeight="28.0" prefWidth="172.0" text="facebook.com/Shahjad16">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+               </children></AnchorPane>
+         </center>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+         <bottom>
+            <AnchorPane prefHeight="85.0" prefWidth="683.0" style="-fx-border-color: ff4e3c; -fx-border-width: 5px 0px 0px 0px;  ;" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

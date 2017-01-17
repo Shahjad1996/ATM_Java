@@ -1,0 +1,56 @@
+#loginbtn
+{
+    -fx-background-color:greenyellow;
+}
+#signupbtn
+{
+    -fx-background-color: orange;
+}
+#loginform{
+    -fx-background-color: #ACACAC;
+}
+#signupform{
+    -fx-background-color: #ACACAC;
+}
+#loginbtn:hover{
+    -fx-background-color: lightgreen;
+    -fx-border-color: white;
+}
+#signupbtn:hover{
+    -fx-background-color: darkorange;
+    -fx-border-color: orange;
+}
+
+#btnInfo{
+    -fx-background-color: lightblue;
+
+}
+#btnInfo:hover{
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+    -fx-border-color:white;
+}
+#homeLogout{
+    -fx-background-color: indianred;
+}
+#homeLogout:hover{
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+}
+#changepassbtn{
+    -fx-background-color: darkkhaki;
+}
+#changepassbtn:hover{
+    -fx-background-color: darkgoldenrod;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+}
+#depositbtn{
+    -fx-background-color: darkkhaki;
+}
+#depositbtn:hover{
+    -fx-background-color: darkgoldenrod;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+}

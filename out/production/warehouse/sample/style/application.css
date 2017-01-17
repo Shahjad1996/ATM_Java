@@ -1,0 +1,68 @@
+.button{
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    /*    -fx-border-color: white;*/
+    -fx-text-fill: #4E4F52;
+    /*    -fx-border-radius: 50px;*/
+    /*    -fx-background-radius: 50px;*/
+    -fx-background-color: #282E34;
+    /*    -fx-font-size: 15px; */
+    /*    -fx-padding: 5px 25px;*/
+    -fx-font-weight:700;
+    -fx-font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.button:focused{
+    -fx-border-width: 0px 0px 0px 0px;
+    /*    -fx-text-fill: #FFFFFF;*/
+
+}
+.button:pressed{
+    -fx-text-fill: white;
+}
+.button:hover{
+    -fx-background-color: #929292;
+    -fx-text-fill: white;
+}
+.scroll-pane {
+
+    /*    -fx-background-insets: 0;*/
+    -fx-padding: 0;
+    -fx-background:#282E34;
+}
+
+#acDashBord{
+    -fx-background-color:#282E34;
+}
+
+
+
+#acHead{
+    -fx-background-color:#282E34;
+}
+#mbtnUsrInfoBox{
+    -fx-background-color:#282E34;
+    -fx-text-fill: white;
+}
+#mbtnUsrInfoBox:hover, #mbtnUsrInfoBox:focused{
+
+}
+
+#btnLogOut{
+    -fx-background-color:blue;
+    -fx-text-fill: darkgrey;
+}
+#btnLogOut:hover{
+    -fx-text-fill: white;
+}
+#circleImgUsr{
+    -fx-padding: 0;
+}
+#btnLogOut{
+    -fx-background-color: #282E34;
+    -fx-text-fill: #929292;
+}
+#btnLogOut:hover{
+    -fx-text-fill: azure;
+}
